@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="56558855-8f75-4083-9424-3e94c2f163a0" name="kevin.moormann@KMOORMANNHOU7 2012-03-29 23:20:09" runUser="PARIVEDA\kevin.moormann" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0cbdb401-3a29-44c0-80d9-02507ba272b6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kevin.moormann_KMOORMANNHOU7 2012-03-29 23_20_09">
+      <DeploymentItem filename="C:\Source\HDNMeetup\FinaryChop\bin\Debug\FinaryChop.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-29T23:20:09.6490054-05:00" queuing="2012-03-29T23:20:09.7230096-05:00" start="2012-03-29T23:20:09.7320101-05:00" finish="2012-03-29T23:20:09.9780242-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="HandlesEmptyArrayTest" storage="c:\source\hdnmeetup\finarychop.test\bin\debug\finarychop.test.dll" id="4848fdc1-d58d-0457-488b-be43bbc68c67">
+      <Execution id="3eae0e5b-f9e6-4de8-8670-99d7e30f4ace" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/FinaryChop.Test/bin/Debug/FinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FinaryChop.Test.FinaryChopTestClass, FinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HandlesEmptyArrayTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="4848fdc1-d58d-0457-488b-be43bbc68c67" executionId="3eae0e5b-f9e6-4de8-8670-99d7e30f4ace" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="3eae0e5b-f9e6-4de8-8670-99d7e30f4ace" testId="4848fdc1-d58d-0457-488b-be43bbc68c67" testName="HandlesEmptyArrayTest" computerName="KMOORMANNHOU7" duration="00:00:00.0236487" startTime="2012-03-29T23:20:09.7430107-05:00" endTime="2012-03-29T23:20:09.9600231-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3eae0e5b-f9e6-4de8-8670-99d7e30f4ace">
+    </UnitTestResult>
+  </Results>
+</TestRun>

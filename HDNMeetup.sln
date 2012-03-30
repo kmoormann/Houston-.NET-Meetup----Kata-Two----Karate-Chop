@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryChop", "HDNMeetup\BinaryChop.csproj", "{924AB3FB-56CE-40DE-B83B-E097F32B42DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryChop.Test", "BinaryChop.Test\BinaryChop.Test.csproj", "{6A178283-3EB5-4F98-970E-568C7F7E4D33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2F1A0596-E27C-40E6-B568-3477DFCFFCAC}"
+	ProjectSection(SolutionItems) = preProject
+		HDNMeetup.vsmdi = HDNMeetup.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinaryChop.Test", "FinaryChop.Test\FinaryChop.Test.csproj", "{BF91097C-8693-4582-BD51-5E771D651B0B}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FinaryChop", "FinaryChop\FinaryChop.fsproj", "{96519009-39BB-4B14-B2F5-06F04CD99EC4}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = HDNMeetup.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{924AB3FB-56CE-40DE-B83B-E097F32B42DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{924AB3FB-56CE-40DE-B83B-E097F32B42DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{924AB3FB-56CE-40DE-B83B-E097F32B42DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{924AB3FB-56CE-40DE-B83B-E097F32B42DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A178283-3EB5-4F98-970E-568C7F7E4D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A178283-3EB5-4F98-970E-568C7F7E4D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A178283-3EB5-4F98-970E-568C7F7E4D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A178283-3EB5-4F98-970E-568C7F7E4D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF91097C-8693-4582-BD51-5E771D651B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF91097C-8693-4582-BD51-5E771D651B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF91097C-8693-4582-BD51-5E771D651B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF91097C-8693-4582-BD51-5E771D651B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96519009-39BB-4B14-B2F5-06F04CD99EC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96519009-39BB-4B14-B2F5-06F04CD99EC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96519009-39BB-4B14-B2F5-06F04CD99EC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96519009-39BB-4B14-B2F5-06F04CD99EC4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ad6d2340-f142-4a93-9caf-cd71100d215c" name="kevin.moormann@KMOORMANNHOU7 2012-03-29 23:38:32" runUser="PARIVEDA\kevin.moormann" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0cbdb401-3a29-44c0-80d9-02507ba272b6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kevin.moormann_KMOORMANNHOU7 2012-03-29 23_38_32">
+      <DeploymentItem filename="C:\Source\HDNMeetup\FinaryChop\bin\Debug\FinaryChop.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-29T23:38:32.7991019-05:00" queuing="2012-03-29T23:38:32.8851069-05:00" start="2012-03-29T23:38:32.9001077-05:00" finish="2012-03-29T23:38:33.5081425-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="9" executed="9" passed="9" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindsRightMostElementTest" storage="c:\source\hdnmeetup\binarychop.test\bin\debug\binarychop.test.dll" id="463d26a1-d7d9-5910-dd71-a3fce743547a">
+      <Execution id="0a9c19bc-df33-4684-a250-f0a8ccaff46a" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/BinaryChop.Test/bin/Debug/BinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinaryChop.Test.BinaryChopTest, BinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindsRightMostElementTest" />
+    </UnitTest>
+    <UnitTest name="SingleElementArrayNotFoundTest" storage="c:\source\hdnmeetup\finarychop.test\bin\debug\finarychop.test.dll" id="0316ad53-79e3-8d1b-d52c-a7ec0eb05f7a">
+      <Execution id="9e708dfb-a4bf-4fc3-91f4-f42a3bbd1bab" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/FinaryChop.Test/bin/Debug/FinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FinaryChop.Test.FinaryChopTestClass, FinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SingleElementArrayNotFoundTest" />
+    </UnitTest>
+    <UnitTest name="FindsAnyElementPosition" storage="c:\source\hdnmeetup\binarychop.test\bin\debug\binarychop.test.dll" id="32da3871-5f01-607a-0c6d-7b7ad5ba2961">
+      <Execution id="df157663-f6b7-4a03-b3cf-90247237834f" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/BinaryChop.Test/bin/Debug/BinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinaryChop.Test.BinaryChopTest, BinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindsAnyElementPosition" />
+    </UnitTest>
+    <UnitTest name="HandlesEmptyArrayTest" storage="c:\source\hdnmeetup\finarychop.test\bin\debug\finarychop.test.dll" id="4848fdc1-d58d-0457-488b-be43bbc68c67">
+      <Execution id="7d0455f0-d30d-4b9f-8e5e-faffd12b7956" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/FinaryChop.Test/bin/Debug/FinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FinaryChop.Test.FinaryChopTestClass, FinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HandlesEmptyArrayTest" />
+    </UnitTest>
+    <UnitTest name="SingleElementArrayFoundTest" storage="c:\source\hdnmeetup\binarychop.test\bin\debug\binarychop.test.dll" id="c86d2b9f-1352-9a5b-8d44-0177ec43cf87">
+      <Execution id="100d0473-ba9e-42a1-bac0-70777b25e1cd" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/BinaryChop.Test/bin/Debug/BinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinaryChop.Test.BinaryChopTest, BinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SingleElementArrayFoundTest" />
+    </UnitTest>
+    <UnitTest name="SingleElementArrayFoundTest" storage="c:\source\hdnmeetup\finarychop.test\bin\debug\finarychop.test.dll" id="82ddeb6f-8a18-f26c-4aaa-76a86ba23e63">
+      <Execution id="0332d8e0-244d-4cf7-a727-513cfac62007" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/FinaryChop.Test/bin/Debug/FinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FinaryChop.Test.FinaryChopTestClass, FinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SingleElementArrayFoundTest" />
+    </UnitTest>
+    <UnitTest name="SingleElementArrayNotFoundTest" storage="c:\source\hdnmeetup\binarychop.test\bin\debug\binarychop.test.dll" id="06bb51fc-58c1-91eb-8bb4-8b183b6d1fce">
+      <Execution id="d47e444e-fe5f-4095-b1cd-5ccc96adfd2e" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/BinaryChop.Test/bin/Debug/BinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinaryChop.Test.BinaryChopTest, BinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="SingleElementArrayNotFoundTest" />
+    </UnitTest>
+    <UnitTest name="HandlesEmptyArrayTest" storage="c:\source\hdnmeetup\binarychop.test\bin\debug\binarychop.test.dll" id="7028736f-ab32-220d-04c5-5a909c8a84bd">
+      <Execution id="7befd040-b0ab-446f-a643-374f04575b86" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/BinaryChop.Test/bin/Debug/BinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinaryChop.Test.BinaryChopTest, BinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="HandlesEmptyArrayTest" />
+    </UnitTest>
+    <UnitTest name="FindsLeftMostElementTest" storage="c:\source\hdnmeetup\binarychop.test\bin\debug\binarychop.test.dll" id="7d163b4d-4f64-d468-14d8-29b259b35546">
+      <Execution id="a291e6a4-a3b7-43bd-a725-d7a7b694eb9e" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/BinaryChop.Test/bin/Debug/BinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BinaryChop.Test.BinaryChopTest, BinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindsLeftMostElementTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0316ad53-79e3-8d1b-d52c-a7ec0eb05f7a" executionId="9e708dfb-a4bf-4fc3-91f4-f42a3bbd1bab" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06bb51fc-58c1-91eb-8bb4-8b183b6d1fce" executionId="d47e444e-fe5f-4095-b1cd-5ccc96adfd2e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="32da3871-5f01-607a-0c6d-7b7ad5ba2961" executionId="df157663-f6b7-4a03-b3cf-90247237834f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="463d26a1-d7d9-5910-dd71-a3fce743547a" executionId="0a9c19bc-df33-4684-a250-f0a8ccaff46a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4848fdc1-d58d-0457-488b-be43bbc68c67" executionId="7d0455f0-d30d-4b9f-8e5e-faffd12b7956" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7028736f-ab32-220d-04c5-5a909c8a84bd" executionId="7befd040-b0ab-446f-a643-374f04575b86" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7d163b4d-4f64-d468-14d8-29b259b35546" executionId="a291e6a4-a3b7-43bd-a725-d7a7b694eb9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="82ddeb6f-8a18-f26c-4aaa-76a86ba23e63" executionId="0332d8e0-244d-4cf7-a727-513cfac62007" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c86d2b9f-1352-9a5b-8d44-0177ec43cf87" executionId="100d0473-ba9e-42a1-bac0-70777b25e1cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="9e708dfb-a4bf-4fc3-91f4-f42a3bbd1bab" testId="0316ad53-79e3-8d1b-d52c-a7ec0eb05f7a" testName="SingleElementArrayNotFoundTest" computerName="KMOORMANNHOU7" duration="00:00:00.0341482" startTime="2012-03-29T23:38:32.9171087-05:00" endTime="2012-03-29T23:38:33.1411215-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9e708dfb-a4bf-4fc3-91f4-f42a3bbd1bab">
+    </UnitTestResult>
+    <UnitTestResult executionId="d47e444e-fe5f-4095-b1cd-5ccc96adfd2e" testId="06bb51fc-58c1-91eb-8bb4-8b183b6d1fce" testName="SingleElementArrayNotFoundTest" computerName="KMOORMANNHOU7" duration="00:00:00.0138312" startTime="2012-03-29T23:38:33.1531222-05:00" endTime="2012-03-29T23:38:33.3631342-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d47e444e-fe5f-4095-b1cd-5ccc96adfd2e">
+    </UnitTestResult>
+    <UnitTestResult executionId="df157663-f6b7-4a03-b3cf-90247237834f" testId="32da3871-5f01-607a-0c6d-7b7ad5ba2961" testName="FindsAnyElementPosition" computerName="KMOORMANNHOU7" duration="00:00:00.0009106" startTime="2012-03-29T23:38:33.3661344-05:00" endTime="2012-03-29T23:38:33.3791351-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="df157663-f6b7-4a03-b3cf-90247237834f">
+    </UnitTestResult>
+    <UnitTestResult executionId="0a9c19bc-df33-4684-a250-f0a8ccaff46a" testId="463d26a1-d7d9-5910-dd71-a3fce743547a" testName="FindsRightMostElementTest" computerName="KMOORMANNHOU7" duration="00:00:00.0211059" startTime="2012-03-29T23:38:33.3811352-05:00" endTime="2012-03-29T23:38:33.4131371-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a9c19bc-df33-4684-a250-f0a8ccaff46a">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d0455f0-d30d-4b9f-8e5e-faffd12b7956" testId="4848fdc1-d58d-0457-488b-be43bbc68c67" testName="HandlesEmptyArrayTest" computerName="KMOORMANNHOU7" duration="00:00:00.0036742" startTime="2012-03-29T23:38:33.4171373-05:00" endTime="2012-03-29T23:38:33.4241377-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d0455f0-d30d-4b9f-8e5e-faffd12b7956">
+    </UnitTestResult>
+    <UnitTestResult executionId="7befd040-b0ab-446f-a643-374f04575b86" testId="7028736f-ab32-220d-04c5-5a909c8a84bd" testName="HandlesEmptyArrayTest" computerName="KMOORMANNHOU7" duration="00:00:00.0009520" startTime="2012-03-29T23:38:33.4271379-05:00" endTime="2012-03-29T23:38:33.4441388-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7befd040-b0ab-446f-a643-374f04575b86">
+    </UnitTestResult>
+    <UnitTestResult executionId="a291e6a4-a3b7-43bd-a725-d7a7b694eb9e" testId="7d163b4d-4f64-d468-14d8-29b259b35546" testName="FindsLeftMostElementTest" computerName="KMOORMANNHOU7" duration="00:00:00.0007585" startTime="2012-03-29T23:38:33.4531393-05:00" endTime="2012-03-29T23:38:33.4571396-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a291e6a4-a3b7-43bd-a725-d7a7b694eb9e">
+    </UnitTestResult>
+    <UnitTestResult executionId="0332d8e0-244d-4cf7-a727-513cfac62007" testId="82ddeb6f-8a18-f26c-4aaa-76a86ba23e63" testName="SingleElementArrayFoundTest" computerName="KMOORMANNHOU7" duration="00:00:00.0011291" startTime="2012-03-29T23:38:33.4591397-05:00" endTime="2012-03-29T23:38:33.4731405-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0332d8e0-244d-4cf7-a727-513cfac62007">
+    </UnitTestResult>
+    <UnitTestResult executionId="100d0473-ba9e-42a1-bac0-70777b25e1cd" testId="c86d2b9f-1352-9a5b-8d44-0177ec43cf87" testName="SingleElementArrayFoundTest" computerName="KMOORMANNHOU7" duration="00:00:00.0008278" startTime="2012-03-29T23:38:33.4751406-05:00" endTime="2012-03-29T23:38:33.4861412-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="100d0473-ba9e-42a1-bac0-70777b25e1cd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

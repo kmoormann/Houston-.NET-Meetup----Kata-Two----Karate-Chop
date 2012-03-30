@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1561f5fc-af50-48d8-8a04-c18f0faf90b3" name="kevin.moormann@KMOORMANNHOU7 2012-03-29 23:40:25" runUser="PARIVEDA\kevin.moormann" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0cbdb401-3a29-44c0-80d9-02507ba272b6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Source\HDNMeetup\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="kevin.moormann_KMOORMANNHOU7 2012-03-29 23_40_25">
+      <DeploymentItem filename="C:\Source\HDNMeetup\FinaryChop\bin\Debug\FinaryChop.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-29T23:40:25.2695349-05:00" queuing="2012-03-29T23:40:25.3285383-05:00" start="2012-03-29T23:40:25.3335385-05:00" finish="2012-03-29T23:40:25.5925534-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindsLeftMostElementTest" storage="c:\source\hdnmeetup\finarychop.test\bin\debug\finarychop.test.dll" id="f109d7fe-3fbc-460e-9222-6132df15558e">
+      <Execution id="4dc2a1f0-7790-4b92-b095-a5a547fd78e2" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/FinaryChop.Test/bin/Debug/FinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FinaryChop.Test.FinaryChopTestClass, FinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindsLeftMostElementTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f109d7fe-3fbc-460e-9222-6132df15558e" executionId="4dc2a1f0-7790-4b92-b095-a5a547fd78e2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="4dc2a1f0-7790-4b92-b095-a5a547fd78e2" testId="f109d7fe-3fbc-460e-9222-6132df15558e" testName="FindsLeftMostElementTest" computerName="KMOORMANNHOU7" duration="00:00:00.0181697" startTime="2012-03-29T23:40:25.3505395-05:00" endTime="2012-03-29T23:40:25.5735523-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4dc2a1f0-7790-4b92-b095-a5a547fd78e2">
+    </UnitTestResult>
+  </Results>
+</TestRun>

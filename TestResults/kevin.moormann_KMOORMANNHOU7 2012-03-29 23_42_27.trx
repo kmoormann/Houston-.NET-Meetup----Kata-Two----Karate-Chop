@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="22af9b83-ece9-4b88-9044-f7c75b03089d" name="kevin.moormann@KMOORMANNHOU7 2012-03-29 23:42:27" runUser="PARIVEDA\kevin.moormann" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="0cbdb401-3a29-44c0-80d9-02507ba272b6">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="kevin.moormann_KMOORMANNHOU7 2012-03-29 23_42_27">
+      <DeploymentItem filename="C:\Source\HDNMeetup\FinaryChop\bin\Debug\FinaryChop.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-03-29T23:42:27.3225159-05:00" queuing="2012-03-29T23:42:27.3715187-05:00" start="2012-03-29T23:42:27.3865196-05:00" finish="2012-03-29T23:42:27.6435343-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="FindsLeftMostElementTest" storage="c:\source\hdnmeetup\finarychop.test\bin\debug\finarychop.test.dll" id="f109d7fe-3fbc-460e-9222-6132df15558e">
+      <Execution id="53231425-d058-40c9-ab29-1a58ccd08bfe" />
+      <TestMethod codeBase="C:/Source/HDNMeetup/FinaryChop.Test/bin/Debug/FinaryChop.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="FinaryChop.Test.FinaryChopTestClass, FinaryChop.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FindsLeftMostElementTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f109d7fe-3fbc-460e-9222-6132df15558e" executionId="53231425-d058-40c9-ab29-1a58ccd08bfe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="53231425-d058-40c9-ab29-1a58ccd08bfe" testId="f109d7fe-3fbc-460e-9222-6132df15558e" testName="FindsLeftMostElementTest" computerName="KMOORMANNHOU7" duration="00:00:00.0303856" startTime="2012-03-29T23:42:27.4045206-05:00" endTime="2012-03-29T23:42:27.6275334-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="53231425-d058-40c9-ab29-1a58ccd08bfe">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;-2&gt;. </Message>
+          <StackTrace>   at FinaryChop.Test.FinaryChopTestClass.FindsLeftMostElementTest() in C:\Source\HDNMeetup\FinaryChop.Test\UnitTest1.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
